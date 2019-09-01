@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+/* #secondLine {
+  position:fixed ;
+} */
+
+.BoardGame{
+    position: relative;
+    float: left;
+    background-color: black;
+    width: 900px;
+    height: 480px;
+    margin-top: 15px;
+    margin-left: 64px;
+    
+}
+
+.detailsBoard{
+    background-color: aqua;
+    float: left;
+    height: 480px;
+    width: 200px;
+    margin: 15px 0px 0px 20px;
+}
+
+.block{
+    background-color: white;
+    margin: 10px 19px;
+    line-height: 20px ;
+    height: 68px;
+}
+
+.rotate {
+    position: relative;
+    display: inline-block;
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+    animation-delay: 150ms;
+    background-color: aquamarine;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+.linearGradient{
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    left: 250px;
+    top: 210px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    display: none;
+    font-size: 21px;
+    /* font-weight: bolder; */
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
